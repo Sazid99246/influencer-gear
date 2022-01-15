@@ -1,0 +1,14 @@
+.nav-head, .navbar>.nav-items {
+    display: inline-block;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-items {
+    padding: 14px 16px;
+}
+#nav-head {
+    margin-left: 16px;
+}
