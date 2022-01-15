@@ -56,3 +56,26 @@ p {
 #home {
     padding-bottom: 100px;
 }
+.products li {
+    list-style-type: none;
+    padding: 5px 10px;
+    box-shadow: 10px 10px whitesmoke, 10px 10px 4em whitesmoke;
+}
+.products ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+    height: 476px;
+    width: 329px;
+    left: 196px;
+    top: 1541px;
+}
+h4 {
+    display: inline;
+}
+.fa-star, .fa-star-half-alt {
+    color: orange;
+}
+#products h3 {
+    text-align: center;
+}
