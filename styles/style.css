@@ -12,3 +12,13 @@ header {
 #nav-head {
     margin-left: 16px;
 }
+.nav-items a {
+    text-decoration: none;
+    color: #3a3a3a;
+}
+body {
+    color: #3a3a3a;
+}
+.fa-shooping-cart {
+    color: white;
+}
