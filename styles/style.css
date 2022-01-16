@@ -20,6 +20,8 @@
 body {
     color: #3a3a3a;
     font-family: 'Poppins', sans-serif;
+}
+header, main {
     margin: 50px;
 }
 .heading {
@@ -92,4 +94,24 @@ h4 {
     color: white;
     padding: 10px 25px;
     background-color: #E02C6D;
+}
+#footer {
+    text-align: center;
+    background-color: #0a0826;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.footer-heading {
+    color: white;
+}
+.footer-content {
+    color: #d9dbf1;
+}
+.contact-icons {
+    color: white;
+    padding: 0 16px;
+}
+.contact li {
+    list-style-type: none;
+    display: inline;    
 }
