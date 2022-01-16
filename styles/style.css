@@ -65,8 +65,6 @@ p {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 40px;
-    height: 476px;
-    width: 329px;
     left: 196px;
     top: 1541px;
 }
@@ -78,4 +76,20 @@ h4 {
 }
 #products h3 {
     text-align: center;
+}
+#see-more {
+    text-align: right;
+    color: rgba(224, 44, 109, 0.87);
+}
+#register {
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.register {
+    height: 30px;
+    width: 70px;
+    color: white;
+    padding: 10px 25px;
+    background-color: #E02C6D;
 }
